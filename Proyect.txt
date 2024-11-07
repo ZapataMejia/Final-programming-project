@@ -1,0 +1,22 @@
+Proyecto: Sistema de Gestión de Libros utilizando Programación Orientada a Objetos (POO) en JavaScript
+
+Descripción del Proyecto:
+El proyecto consiste en desarrollar una aplicación web sencilla que permita gestionar una lista de libros, utilizando la Programación Orientada a Objetos (POO) en JavaScript. Los usuarios podrán agregar libros proporcionando información como título, autor y número de páginas. Los libros se mostrarán en una tabla HTML y podrán ser eliminados si es necesario.
+
+Objetivos del Proyecto:
+Aplicar conceptos de Programación Orientada a Objetos (POO) en JavaScript.
+Manejar la interacción con el DOM para mostrar y manipular datos en la interfaz HTML.
+Desarrollar una interfaz gráfica dinámica donde los usuarios puedan agregar, visualizar y eliminar libros de una lista.
+Practicar la validación de formularios y la captura de eventos en JavaScript.
+Requerimientos Funcionales:
+
+Agregar Libros:
+El usuario debe poder introducir el título, autor y número de páginas de un libro en un formulario.
+Al hacer clic en el botón "Agregar Libro", el libro debe añadirse a una tabla que muestra todos los libros ingresados.
+
+Mostrar Lista de Libros:
+Los libros agregados deben mostrarse en una tabla HTML en la página, con sus respectivas columnas: Título, Autor, Número de Páginas y Acciones.
+
+
+Eliminar Libros:
+Cada libro mostrado en la tabla debe tener un botón de "Eliminar".

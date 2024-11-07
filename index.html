@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Libros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sistema de Gestión de Libros</h1>
+    <div class="container">
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="Título del libro" required>
+            <input type="text" id="author" placeholder="Autor del libro" required>
+            <input type="number" id="pages" placeholder="Número de páginas" required>
+            <button type="submit">Agregar Libro</button>
+        </form>
+        <table id="bookTable">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Número de Páginas</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="bookList"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
